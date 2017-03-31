@@ -1,4 +1,17 @@
-﻿ggfg
-chocolate é bom
-chocolatao
-bode
+npm(para subir no servidor).
+npm -v (para verificar se npm existe na máquina).
+
+bower -v (para verificar se bower existe na máquina).
+
+cd appTime07
+
+npm install http-server -g
+
+npm config set strict-ssl false  (Quando ocorrer o erro 
+self signed certificate in certificate chain ao usar o comando npm install http-server -g)
+
+-g instalar global para qualquer aplicação da máquina.
+
+npm install bower -g (para instalar o bower).
+
+bower install(para instalar as dependências).
